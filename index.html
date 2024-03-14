@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galerie Foto</title>
+<style>
+  body {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    justify-content: center;
+    background-color: #f0f0f0;
+  }
+  .gallery-container {
+    width: 200px;
+    margin: 10px;
+    border: 5px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0,0,0,.05);
+    transition: 0.3s;
+    overflow: hidden;
+  }
+  .gallery-container:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,.1);
+  }
+  .gallery-image {
+    width: 100%;
+    height: auto;
+  }
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<div class="gallery-container">
+  <img src="imagine1.jpg" alt="Descriere imagine 1" class="gallery-image">
+  <div class="desc">Descriere imagine 1</div>
+</div>
+
+<div class="gallery-container">
+  <img src="imagine2.jpg" alt="Descriere imagine 2" class="gallery-image">
+  <div class="desc">Descriere imagine 2</div>
+</div>
+
+<div class="gallery-container">
+    <img src="imagine3.jpg" alt="Descriere imagine 3" class="gallery-image">
+    <div class="desc">Descriere imagine 2</div>
+  </div>
+
+  <div class="gallery-container">
+    <img src="imagine4.jpg" alt="Descriere imagine 4" class="gallery-image">
+    <div class="desc">Descriere imagine 2</div>
+  </div>
+
+  <div class="gallery-container">
+    <img src="imagine5.jpg" alt="Descriere imagine 5" class="gallery-image">
+    <div class="desc">Descriere imagine 2</div>
+  </div>
+
+<div class="gallery-container">
+  <img src="imagine6.jpg" alt="Descriere imagine 6" class="gallery-image">
+  <div class="desc">Descriere imagine 2</div>
+</div>
+
+<div class="gallery-container">
+    <img src="imagine7.jpg" alt="Descriere imagine 7" class="gallery-image">
+    <div class="desc">Descriere imagine 2</div>
+  </div>
+
+
+
+</body>
+</html>
